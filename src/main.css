@@ -1,0 +1,27 @@
+* {
+    color: white;
+    /*TODO: font-size: 10pt; overwrites everything, can't be overwritten anymore */
+    text-align: left;
+    align-items: flex-start;
+    font-family: sans-serif;
+}
+
+#welcome_screen {
+    padding: 20pt;
+    background-color: #333;
+}
+
+/*TODO: #welcome_screen > #no_directory_label doesn't work */
+#no_directory_label {
+    height: 20px;
+    font-size: 20pt;
+    border-radius: 4px;
+}
+
+#load_directory_btn {
+    background-color: #3c3c3c;
+    font-size: 12pt;
+    border-radius: 4px;
+    /* padding: 50px; - TODO: Putting padding here destroys layout */
+    height: 120px;
+}

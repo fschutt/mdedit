@@ -1,0 +1,8 @@
+[package]
+name = "mdedit"
+version = "0.1.0"
+authors = ["Felix Schütt <felix.schuett@maps4print.com>"]
+
+[dependencies]
+azul = { git = "https://github.com/maps4print/azul", rev = "2068541297c8345b622a8a05c5e0ac690d1c154e", default-features = false }
+comrak = { version = "0.3.1", default-features = false }
